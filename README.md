@@ -1,75 +1,69 @@
-<div align="center">
-  <!-- BANNER PRINCIPAL ANIMADO -->
-  <img src="https://media.discordapp.net/attachments/1496228320600395937/1496236527481651290/IMG_9499.GIF?ex=69e9265a&is=69e7d4da&hm=3de4b1ab4a91f916ba8e72615aeb6aca89d90da59284f3374b007bdcc85fae99&animated=true" width="100%" style="border-radius: 15px;">
+<!-- HEADER ANIMADO COM ONDA -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=7289DA&height=250&section=header&text=ZUX%20STORE&fontSize=90&animation=fadeIn&fontAlignY=35&desc=O%20Poder%20da%20Automação&descAlignY=60&descSize=25" width="100%">
+</p>
 
-  <br><br>
+<!-- GIF PRINCIPAL DA LOJA -->
+<p align="center">
+  <img src="https://media.discordapp.net/attachments/1496228320600395937/1496236527481651290/IMG_9499.GIF?ex=69e9265a&is=69e7d4da&hm=3de4b1ab4a91f916ba8e72615aeb6aca89d90da59284f3374b007bdcc85fae99&animated=true" width="400" style="border-radius: 20px; border: 3px solid #7289DA;">
+</p>
 
-  <!-- TÍTULO COM EFEITO -->
-  <h1><code>✨ Zux Store Automation ✨</code></h1>
-
-  <!-- BADGES ANIMADAS E ESTILIZADAS -->
-  <p>
-    <img src="https://img.shields.io/badge/Status-Online-brightgreen?style=for-the-badge&logo=statuspage">
-    <img src="https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python">
-    <img src="https://img.shields.io/badge/Zux%20Store-Oficial-6f42c1?style=for-the-badge">
-  </p>
-
-  <p><i>Elevando o nível de gestão da sua loja no Discord com elegância e performance.</i></p>
-
-  <!-- BOTÃO DE CONVITE ANIMADO -->
+<!-- EFEITO DE DIGITAÇÃO ANIMADO -->
+<p align="center">
   <a href="https://discord.gg/XdkUvjXkU8">
-    <img src="https://img.shields.io/badge/CONVITE%20DISCORD-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="Discord Link">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=7289DA&center=true&vCenter=true&width=435&lines=Bem-vindo+à+Zux+Store;Moderação+Avançada+e+Rápida;Sistema+de+Auto-role+por+Botões;Design+Elegante+e+Moderno">
   </a>
-</div>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.11+-blue?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/Discord.py-2.3.2-blueviolet?style=for-the-badge&logo=discord&logoColor=white">
+  <img src="https://img.shields.io/badge/Hospedagem-Discloud-black?style=for-the-badge&logo=icloud&logoColor=white">
+</p>
 
 <hr>
 
-<!-- SEÇÃO DE RECURSOS EM GRID HTML -->
-<table align="center" width="100%">
+<!-- SOBRE -->
+## 💎 Sobre o Projeto
+O **Zux Store Bot** não é apenas um bot de moderação, é uma identidade visual para o seu servidor. Focado em **UX (User Experience)**, ele utiliza os recursos mais modernos do Discord (Botões, Select Menus e Timeouts) para garantir que sua loja tenha uma gestão profissional.
+
+---
+
+<!-- RECURSOS COM ÍCONES -->
+## 🚀 Funcionalidades Incríveis
+
+<table width="100%">
   <tr>
     <td width="50%">
-      <h3>🛡️ Moderação de Elite</h3>
-      <ul>
-        <li><b>Ban & Unban</b> Inteligente via ID</li>
-        <li><b>Expulsão</b> rápida com log</li>
-        <li><b>Timeout</b> (Mute) nativo do Discord</li>
-      </ul>
+      <h3>🛡️ Segurança Total</h3>
+      • <b>Ban/Kick</b> com logs detalhados.<br>
+      • <b>Sistema de Unban</b> via ID simplificado.<br>
+      • <b>Mute Automático</b> integrado ao Timeout nativo.
     </td>
     <td width="50%">
-      <h3>⚙️ Automação (Auto-role)</h3>
-      <ul>
-        <li>Painel interativo com <b>Botões</b></li>
-        <li>Cargo separado para <b>Membros e Bots</b></li>
-        <li>Ativação instantânea via Menu</li>
-      </ul>
+      <h3>⚙️ Automação Inteligente</h3>
+      • <b>Painel Auto-role</b> exclusivo e intuitivo.<br>
+      • Separação de cargos entre <b>Membros e Bots</b>.<br>
+      • Configuração 100% dinâmica via comandos.
     </td>
   </tr>
 </table>
 
-<hr>
+---
 
-<!-- SEÇÃO DE UTILITÁRIOS -->
-<div align="center">
-  <h2>🛠️ Utilitários Premium</h2>
-</div>
+<!-- TUTORIAL DE USO -->
+## 📖 Tutorial de Instalação e Uso
 
-<div align="center">
-  <table width="80%">
-    <tr>
-      <td align="center"><b>$avatar</b><br>HD Zoom</td>
-      <td align="center"><b>$banner</b><br>Profile Art</td>
-      <td align="center"><b>$userinfo</b><br>Full Data</td>
-      <td align="center"><b>$help</b><br>Styled Menu</td>
-    </tr>
-  </table>
-</div>
+### 1️⃣ Preparação do Bot
+1. Vá ao [Portal do Desenvolvedor do Discord](https://discord.com/developers/applications).
+2. Crie sua aplicação e ative as **3 Privileged Gateway Intents** (Presence, Members, Message Content).
+3. Pegue seu **Token** e cole no arquivo `main.py`.
 
-<br>
+### 2️⃣ Rodando o Bot (Local)
+No terminal, execute:
+```bash
+# Instalar dependências
+pip install -r requirements.txt
 
-<!-- RODAPÉ -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=6f42c1&height=100&section=footer" width="100%">
-  <br>
-  <p><b>Este projeto foi desenvolvido exclusivamente para a <a href="https://discord.gg/XdkUvjXkU8">Zux Store</a></b></p>
-  <code>Copyright © 2024 Zux Store - Todos os direitos reservados.</code>
-</div>
+# Iniciar o bot
+python main.py
